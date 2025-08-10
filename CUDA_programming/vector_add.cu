@@ -5,7 +5,7 @@
 #include <time.h>
 #include <cuda_runtime.h>
 
-#define N 1000000 // vector size : 10 million
+#define N 1000000 // vector size : 1 million
 # define BLOCK_SIZE 256 // number of blocks per grid
 
 // cpu vector addition
